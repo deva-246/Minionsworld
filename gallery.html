@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./media/app_icon.jpg">
+    <title>Gallery.minions</title>
+</head>
+<style>
+    body {
+        background-image: url("./media/gallerybg.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+    .row {
+        display: -ms-flexbox;
+        
+        display: flex;
+        -ms-flex-wrap: wrap;
+        
+        flex-wrap: wrap;
+        padding: 100px 10px 50px 10px;
+        margin: 10px;
+        justify-content: center;
+    }
+
+
+    .column {
+        -ms-flex: 25%;
+        
+        flex: 25%;
+        max-width: 25%;
+        padding: 20px 30px 20px 30px;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .column img:hover {
+        transform: scale(0.8) rotate(-15deg);
+        border-radius: 20px;
+    }
+</style>
+
+<body>
+
+    <nav class="topnav">
+        <ul>
+            <li><img src="./media/nav.png" heigth="30px" width="30px"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Minion Movies</a></li>
+            <li><a href="gallery.html">Minion Gallery</a></li>
+            <li><a href="characters.html">Minion characters</a></li>
+            <li><a href="index.html">Logout</a></li>
+
+
+        </ul>
+    </nav>
+    
+    <div class="row">
+        <div class="column">
+            <img src="./media/g1.jpg" style="width:100%">
+            <img src="./media/g2.jpg" style="width:100%">
+            <img src="./media/g3.jpg" style="width:100%">
+            <img src="./media/g4.jpg" style="width:100%">
+            <img src="./media/g5.jpg" style="width:100%">
+            <img src="./media/g6.jpg" style="width:100%">
+            <img src="./media/g7.jpg" style="width:100%">
+            <img src="./media/g8.webp" style="width:100%">
+
+        </div>
+        <div class="column">
+            <img src="./media/gal1.jpg" style="width:100%">
+            <img src="./media/gal2.jpg" style="width:100%">
+            <img src="./media/gal3.jpg" style="width:100%">
+            <img src="./media/gal4.jpg" style="width:100%">
+            <img src="./media/gal5.jpg" style="width:100%">
+            <img src="./media/gal6.jpg" style="width:100%">
+            <img src="./media/gal8.jpg" style="width:100%">
+            <img src="./media/gal2.jpg" style="width:100%">
+
+        </div>
+        <div class="column">
+            <img src="./media/gal11.jpg" style="width:100%">
+            <img src="./media/gal12.jpg" style="width:100%">
+            <img src="./media/gal13.jpg" style="width:100%">
+            <img src="./media/gal14.jpg" style="width:100%">
+            <img src="./media/g1.jpg" style="width:100%">
+            <img src="./media/g2.jpg" style="width:100%">
+            <img src="./media/gal11.jpg" style="width:100%">
+            <img src="./media/g8.webp" style="width:100%">
+
+        </div>
+
+    </div>
+    <div>
+        
+    </div>
+    <div style="margin-top:200px;">
+        <footer>
+            <p>
+                <a id="copyright">© 2023 minions</a>
+                <a>Bello</a>
+                <a>Tutaliloo</a>
+                <a id="madewith">Made with love</a>
+            </p>
+        </footer>
+    </div>
+
+
+
+
+</body>
+
+</html>

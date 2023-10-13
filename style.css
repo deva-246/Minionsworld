@@ -1,0 +1,134 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crimson+Pro:wght@200;800;900&display=swap');
+
+ * {
+   font-family: 'Bree Serif', serif;
+   margin: 2px 0px 2px 0px;
+ }
+
+ #myVideo {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+ }
+
+
+ .content {
+   position: fixed;
+   display: flex;
+   justify-content: center;
+   bottom: 0;
+   color: #f1f1f1;
+   width: 60%;
+   letter-spacing: 10px;
+   padding: 10px;
+   margin: 250px 250px 100px 250px;
+   border-radius: 50px;
+ }
+
+ #expbtn {
+   width: 200px;
+   font-size: 20px;
+   padding: 10px;
+   margin-left: 30px;
+   border: none;
+   background: yellow;
+   color: black;
+   cursor: pointer;
+   border-radius: 30px;
+   font-family: 'Bree Serif', serif;
+ }
+
+ #expbtn:hover {
+   background: cornflowerblue;
+   color: white;
+ }
+
+
+ footer {
+   background-color: #5367e975;
+   /* font-family: Raleway; */
+   padding-left: 1vw;
+   padding-right: 1vw;
+   padding-top: 20px;
+   position: relative;
+   padding: 10px;
+   color: white;
+ }
+
+ #copyright {
+   text-align: left;
+ }
+
+ nav a {
+   padding: 0px 20px 0px 20px;
+ }
+
+ #madewith {
+   text-align: right;
+   float: right;
+   /* this is where we add it */
+ }
+
+ nav {
+   position: fixed;
+   width: 100%;
+  
+ }
+
+ ul {
+   list-style: none;
+   display: flex;
+   width: 100%;
+   /* padding-block-start: 2px; */
+   font-size: 25px;
+   color: white;
+   background-color: rgba(255, 255, 0, 0.541);
+   padding: 10px 0px 30px 0px;
+   block-size: 20px;
+   text-align: left;
+   box-shadow: 0 5px 10px yellow;
+   border-radius: 10px;
+ }
+
+ ul li {
+   padding-left: 30px;
+   padding-right: 30px;
+ }
+
+ a {
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+ }
+
+ a:hover {
+   background-color: cornflowerblue;
+   border-radius: 30px;
+ }
+
+ .logintable{
+  background-color: rgba(255, 255, 0, 0.438);
+  display: flex;
+  justify-content: center;
+  padding: 60px 0px 60px 0px;
+  margin: 150px 250px 250px 250px;
+  
+}
+
+
+.logintable th,td{
+  padding: 0px 15px 0px 15px;
+  font-size: 30px;
+}
+
+.sbt{
+  border-radius: 30px;
+  background-color: cornflowerblue;
+  color: yellow;
+  font-size: 20px;
+  padding: 0px 60px 0px 60px;
+}
+
+
